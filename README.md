@@ -15,5 +15,7 @@ Displays the final score at the end
 Technologies used:
 
 Python
+
 Random module
+
 Tkinter (GUI library)
