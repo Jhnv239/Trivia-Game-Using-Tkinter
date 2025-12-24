@@ -1,5 +1,5 @@
-# Trivia Game 
-# break down of the problem (paln)
+# Trivia Game workflow
+# breakingdown of the problem (plan):
 # we need list of Questions
 # we need their ans
 # randomly give question
@@ -98,4 +98,5 @@ submit_btn.pack(pady=10)
 
 show_question()
 root.mainloop()
+
 
