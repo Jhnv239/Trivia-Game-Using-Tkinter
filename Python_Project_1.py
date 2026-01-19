@@ -1,11 +1,12 @@
-# Trivia Game workflow
-# breakingdown of the problem (plan):
+# Trivia Game workflow:
+# breaking down:
 # we need list of Questions
-# we need their ans
-# randomly give question
-# check the user ans and check if its correct
+# we need their answers
+# set a number for questions asked like 5 or 10
+# randomly ask question
+# check the user ans if its correct or not
 # track their score
-# tell user final score
+# tell user the final score
 
 import random
 import tkinter as tk
@@ -98,5 +99,6 @@ submit_btn.pack(pady=10)
 
 show_question()
 root.mainloop()
+
 
 
