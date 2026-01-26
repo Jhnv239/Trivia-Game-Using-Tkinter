@@ -44,6 +44,9 @@ root = tk.Tk()
 root.title("Trivia Game")
 root.geometry("500x400")
 
+title_label = tk.Label(root, text="Trivia Game", font=("Arial", 22))
+title_label.pack(pady=10)
+
 question_label = tk.Label(root, text="", font=("Calibri", 16), wraplength=450)
 question_label.pack(pady=20)
 
@@ -99,6 +102,7 @@ submit_btn.pack(pady=10)
 
 show_question()
 root.mainloop()
+
 
 
 
